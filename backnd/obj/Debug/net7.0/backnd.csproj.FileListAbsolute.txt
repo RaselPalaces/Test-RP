@@ -31,3 +31,10 @@ C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\obj\Debug\net7.0\refint\b
 C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\obj\Debug\net7.0\backnd.pdb
 C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\obj\Debug\net7.0\backnd.genruntimeconfig.cache
 C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\obj\Debug\net7.0\ref\backnd.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\Dapper.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Familia Luna Humerez\Documents\Test-RP\backnd\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
