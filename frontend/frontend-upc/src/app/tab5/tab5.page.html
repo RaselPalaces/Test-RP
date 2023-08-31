@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      EQUIPO MEDICO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Equipo Medico</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-item>
+    <ion-input id="nombreEquipo" type="text" placeholder="Ingrese el Nombre del Equipo" [(ngModel)]="nombreEquipo"></ion-input>
+    <ion-input id="descripcionProblema" type="text" placeholder="Ingrese la Descripcion del Problema" [(ngModel)]="descripcionProblema"></ion-input>
+    <ion-input id="estadoReparacion" type="text" placeholder="Ingrese el Estado de Reparacion" [(ngModel)]="estadoReparacion"></ion-input>
+    
+    <ion-button id="addEquipoMedico" (click)="addEquipoMedico()">Agregar Equipo</ion-button>
+  </ion-item>
+
+  <br>
+  <ion-grid class="custom-table">
+    <ion-row class="header-row">
+      <ion-col><b>Nombre del Equipo</b></ion-col>
+      <ion-col><b>Descripcion del Problema</b></ion-col>
+      <ion-col><b>Estado de Reparacion</b></ion-col>
+    </ion-row>
+    
+    <ion-row class="data-row" *ngFor="let item of listaEquipo">
+      <ion-col>{{ item.nombreEquipo}}</ion-col>
+      <ion-col>{{ item.descripcionProblema}}</ion-col>
+      <ion-col>{{ item.estadoReparacion}}</ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  
+  </ion-content>

@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      PRODUCTO
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Producto</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-item>
+    <ion-input id="nombre" type="text" placeholder="Ingrese el Nombre del Producto" [(ngModel)]="nombre"></ion-input>
+    <ion-input id="idCategoria" type="text" placeholder="Ingrese el Id Producto" [(ngModel)]="idCategoria"></ion-input>
+
+    <ion-button id="addProducto" (click)="addProducto()">Agregar Producto</ion-button>
+  </ion-item>
+  
+  <br>
+  <ion-grid class="custom-table">
+    <ion-row class="header-row">
+      <ion-col><b>Nombre Producto</b></ion-col>
+      <ion-col><b>Id Categoria</b></ion-col>
+    </ion-row>
+    
+    <ion-row class="data-row" *ngFor="let item of listaProducto">
+      <ion-col>{{ item.nombre }}</ion-col>
+      <ion-col>{{ item.idCategoria}}</ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  </ion-content>

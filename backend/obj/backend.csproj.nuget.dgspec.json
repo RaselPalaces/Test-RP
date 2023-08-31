@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj": {}
+    "C:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj": {
+    "C:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "c:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\Familia Luna Humerez\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\obj\\",
+        "outputPath": "C:\\Users\\Familia Luna Humerez\\Documents\\Test-RP\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Familia Luna Humerez\\AppData\\Roaming\\NuGet\\NuGet.Config"
